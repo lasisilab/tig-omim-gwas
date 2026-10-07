@@ -25,7 +25,7 @@ We match exact gene names between OMIM and the retained GWAS sets without alias 
 
 ### Code and data
 
-The `tig-omim-gwas` repository contains the retrieval scripts, query settings, analysis code and CSV tables. Running `python reproduce.py` regenerates the gene lists and plots from the saved responses. `supplement/build_markdown.py` generates this document and the citation-numbered Table S2 CSV. File paths below are relative to the repository root.
+The repository at https://github.com/lasisilab/tig-omim-gwas contains the retrieval scripts, query settings, analysis code and CSV tables. Running `python reproduce.py` regenerates the gene lists and plots from the saved responses. `supplement/build_markdown.py` generates this document and the citation-numbered Table S2 CSV. File paths below are relative to the repository root.
 
 ## Table S1, related to Figure 3. Selected GWAS Catalog ontology terms
 
