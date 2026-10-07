@@ -1,0 +1,3 @@
+# Preserve saved-response and input bytes used by checksums.
+*.csv -text
+*.json -text

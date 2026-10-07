@@ -1,0 +1,1 @@
+{"_embedded":{"ancestries":[{"type":"initial","number_of_individuals":9678,"ancestral_groups":[{"ancestral_group":"European"}],"country_of_origin":[],"country_of_recruitment":[{"major_area":"Northern America","country_name":"U.S."}],"_links":{"self":{"href":"https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST001939/ancestries/5001"}}}]}}

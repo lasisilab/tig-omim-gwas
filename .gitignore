@@ -1,0 +1,23 @@
+# Local OMIM responses and derived records are retained in the on-disk bundle.
+/omim/inputs/local-data/
+/omim/outputs/
+/omim/inputs/data/needle2025.pdf
+/eulerr/inputs/omim-*-genes.csv
+/eulerr/outputs/
+
+# Runtime dependencies and optional fresh retrievals are machine/run specific.
+**/.library/
+**/live/
+**/.venv/
+**/venv/
+**/envs/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+.Rhistory
+Rplots.pdf
+
+# Generated file inventory
+/FILE_TREE.txt

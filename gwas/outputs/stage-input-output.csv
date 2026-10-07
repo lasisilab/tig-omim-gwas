@@ -1,0 +1,9 @@
+stage,input,operation,output
+1. Keyword searches,search-terms.json + saved /efo-traits JSON pages,Read every completed query and all returned pages; preserve repeated query–term matches.,01-search-queries.csv (30 rows); 01-term-matches.csv (87 rows)
+2. Unique mapped terms,01-term-matches.csv,Deduplicate by efo_id.,02-mapped-terms.csv (82 rows)
+3. Strict + broad selection,02-mapped-terms.csv + classification-rules.csv + reported-trait-query.json,Apply the first matching classification rule; retain the configured groups and scopes.,03-classified-terms.csv (82 rows); 03-selected-terms.csv (20 rows); 03-unselected-terms.csv (62 rows)
+4. Unique associations,03-selected-terms.csv + saved /associations JSON pages + phenotype-scope-rules.csv,"Apply phenotype overrides; deduplicate by (group, association_id). Count distinct study IDs and nonempty PubMed IDs.","04-query-association-occurrences.csv (3,060 rows); 04-associations.csv (3,037 rows)"
+5. Discovery sample size,04-associations.csv + saved study/ancestry JSON + gene-filters.json,Sum initial ancestry counts within each study; apply minimum_discovery_sample_size only when set.,"05-study-samples.csv (149 rows); 05-ancestry-records.csv (203 rows); 05-sample-eligible-associations.csv (3,037 rows)"
+6. Gene mapping available,05-sample-eligible-associations.csv,Separate nonempty and empty mapped_genes arrays.,"06-mapped-associations.csv (2,746 rows); 06-unmapped-associations.csv (291 rows)"
+7. Distinct mapped names,06-mapped-associations.csv,Expand mapped_genes; deduplicate exact names per group. No alias harmonization or extra p-value filter.,"07-gene-evidence.csv (3,590 rows); 07-gene-support.csv (1,417 rows)"
+8. Minimum-paper filter,07-gene-evidence.csv + gene-filters.json,Retain a name with at least 2 distinct nonempty PubMed IDs within its trait group.,"08-retained-genes.csv (334 rows); 08-removed-genes.csv (1,083 rows)"

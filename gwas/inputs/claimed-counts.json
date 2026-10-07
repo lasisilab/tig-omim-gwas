@@ -1,0 +1,52 @@
+{
+  "discovery": {
+    "keyword_queries": 30,
+    "unique_mapped_terms": 82,
+    "selected_terms": 20,
+    "excluded_terms": 62
+  },
+  "filters": {
+    "minimum_publications": 2,
+    "minimum_discovery_sample_size": null,
+    "counting_unit": "unique nonempty PubMed ID",
+    "scope_rules": "data/gwas/phenotype-scope-rules.csv"
+  },
+  "selection": [
+    "strict",
+    "broad"
+  ],
+  "groups": {
+    "pigmentation": {
+      "selected_terms": 11,
+      "strict_terms": 7,
+      "broad_terms": 4,
+      "strict_associations": 2501,
+      "broad_associations": 318,
+      "retrieved_associations": 2819,
+      "catalog_studies": 128,
+      "papers": 45,
+      "sample_eligible_associations": 2819,
+      "mapped_associations": 2531,
+      "associations_without_mapped_genes": 288,
+      "mapped_genes": 1209,
+      "retained_genes": 301,
+      "removed_genes": 908
+    },
+    "hair": {
+      "selected_terms": 9,
+      "strict_terms": 3,
+      "broad_terms": 6,
+      "strict_associations": 109,
+      "broad_associations": 109,
+      "retrieved_associations": 218,
+      "catalog_studies": 22,
+      "papers": 15,
+      "sample_eligible_associations": 218,
+      "mapped_associations": 215,
+      "associations_without_mapped_genes": 3,
+      "mapped_genes": 208,
+      "retained_genes": 33,
+      "removed_genes": 175
+    }
+  }
+}

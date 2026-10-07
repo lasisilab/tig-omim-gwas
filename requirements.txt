@@ -1,0 +1,2 @@
+# Python 3.11 or later. GWAS and the root driver use the standard library.
+-r omim/requirements.txt

@@ -1,0 +1,5 @@
+set,source,group,file,rows,md5,upstream_table,selection
+omim_pigmentation,OMIM,pigmentation,omim-pigmentation-genes.csv,147,8afec202765d7439ad8860972367b1a5,../omim/outputs/pigmentation-genes.csv,cited-ID approved symbols
+gwas_pigmentation,GWAS,pigmentation,gwas-pigmentation-genes.csv,301,af44a60a35c1afb667d4c72332289c66,../gwas/outputs/08-retained-genes.csv,strict + broad
+omim_hair,OMIM,hair,omim-hair-genes.csv,19,073cbe23348222dff884f3981c67a2d2,../omim/outputs/hair-genes.csv,cited-ID approved symbols
+gwas_hair,GWAS,hair,gwas-hair-genes.csv,33,6df5c70438bfc3d7c19aab33fb030e50,../gwas/outputs/08-retained-genes.csv,strict + broad

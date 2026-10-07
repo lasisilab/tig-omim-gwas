@@ -1,0 +1,8 @@
+/inputs/local-data/
+/inputs/data/needle2025.pdf
+/outputs/
+/live/
+/.venv/
+__pycache__/
+.env
+.env.*

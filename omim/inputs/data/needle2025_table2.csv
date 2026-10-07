@@ -1,0 +1,71 @@
+Trait,Gene Set,Pathway/Function,Mendelian Disease Genes
+Female hairiness,BCL2,Apoptosis; hair follicle cycling,N/A
+Female hairiness,TBX15,Hair pigmentation and hair length,OMIM:260660
+Female hairiness,GCC2/LIMS1,Hair follicle growth,N/A
+Beard thickness,EDAR,Ectodermal development; NF-kB activation,"OMIM:129490
+OMIM:224900"
+Beard thickness,FOXP2,Neuronal signaling; WNT signaling,OMIM:602081
+Beard thickness,PREP,Neuronal signaling,N/A
+Beard thickness,LNX1,Neuronal signaling; NOTCH signaling,N/A
+Eyebrow thickness,EDAR,Ectodermal development; NF-kB activation,"OMIM:129490
+OMIM:224900"
+Eyebrow thickness,"SOX2, FOXD1, FOXL2",Hair growth,"OMIM:206900 (SOX2)
+OMIM: 110100 (FOXL2)
+OMIM: 608996 (FOXL2)"
+Monobrow,PAX3,"Regulates proliferation, migration, and differentiation of neural crest cells","OMIM:122880
+OMIM:268220
+OMIM:193500
+OMIM:148820"
+Monobrow,SOX2-ATP11B,Hair growth and progenitor cell differentiation,OMIM:206900 (SOX2)
+Monobrow,EDAR,Ectodermal development; NF-kB activation,"OMIM:129490
+OMIM:224900"
+Monobrow,ZNF608,Involved in the negative regulation of transcription by RNA polymerase II,N/A
+Monobrow,SLC39A12,Zinc transporter protein,N/A
+Monobrow,DKK1-MBL2,Involved in innate immunity and the Wnt pathway,OMIM: 614372 (MBL2)
+Monobrow,ALX4,Hair follicle development,"OMIM:609597
+OMIM:615529
+OMIM:613451"
+Hair morphology/curliness,TCHH/TCHHL1/LCE3E,Crosslinks the cornified envelope and keratins of inner root sheath cells,OMIM:617252 (TCHH)
+Hair morphology/curliness,WNT10A,Hair follicle development; WNT signaling,"OMIM:150400
+OMIM:257980
+OMIM:224750"
+Hair morphology/curliness,EDAR,Ectodermal development; NF-kB activation,"OMIM:129490
+OMIM:224900"
+Hair morphology/curliness,ERRFI1/SLC45A1,Negative regulator of EGFR signaling in skin morphogenesis,OMIM: 617532 (SLC45A1)
+Hair morphology/curliness,PEX14,"Facilitates peroxisomal protein import, involved in peroxisome motility",OMIM: 614887
+Hair morphology/curliness,PADI3,Catalyzes the deimination of arginine residues of proteins in hair follicles,OMIM: 191480
+Hair morphology/curliness,TGFA,"Stimulates cell proliferation, growth, and differentiation, particularly in epithelial cells, through EGF receptor binding",N/A
+Hair morphology/curliness,LGR4,Regulates stem cell maintenance and tissue homeostasis via Wnt signaling,"OMIM: 615311
+OMIM: 619613"
+Hair morphology/curliness,HOXC13,Hair follicle differentiation,OMIM: 614931
+Hair morphology/curliness,KRTAP,Forms a cross-linked network with hair keratin intermediate filaments,N/A
+Hair morphology/curliness,PTK6,Regulation of a variety of signaling pathways that control the differentiation and maintenance of epithelium,N/A
+Hair morphology/curliness,FRAS1,Involved in epidermal-basement membrane adhesion and organogenesis,OMIM: 219000
+Hair morphology/curliness,LINC00708/GATA3,Epithelial development,OMIM: 146255 (GATA3)
+Hair morphology/curliness,PRSS53,Serine protease in the inner root sheath of hair follicles,N/A
+Hair color,"MC1R, TYR, TYRP1, SLC45A2, OCA2",Melanin synthesis,"OMIM: 266300 (MC1R)
+OMIM: 203200 (MC1R)
+OMIM: 601800 (TYR)
+OMIM: 203100 (TYR)
+OMIM: 606952 (TYR)
+OMIM: 203290 (TYRP1)
+OMIM: 227240 (SLC45A2)
+OMIM: 606574 (SLC45A2)
+OMIM: 227220 (OCA2)
+OMIM: 203200 (OCA2)"
+Hair color,IRF4,Melanin production; immune regulation,OMIM: 621097
+Hair color,"ASIP, KITLG, EDNRB","Melanocyte development, migration and function","OMIM: 616697 (KITLG)
+OMIM: 145250 (KITLG)
+OMIM: 619947 (KITLG)
+OMIM: 600501 (EDNRB)
+OMIM: 600155 (EDNRB)
+OMIM: 277580 (EDNRB)"
+Hair color,HERC2,MC1R signaling; regulates OCA2 expression,"OMIM: 227220
+OMIM: 615516"
+Hair color,C10ORF11,Melanocyte differentiation,OMIM: 615179
+Hair color,ERRFI1,Negative regulator of EGFR signaling in skin morphogenesis,N/A
+Hair color,FRAS1,Epidermal-basement membrane adhesion and organogenesis,OMIM: 219000
+Hair color,HOXC13,Hair follicle differentiation,OMIM: 614931
+Hair color,PADI3,Catalyzes the deamination of arginine residues of proteins in hair follicles,OMIM: 191480
+Hair color,KRTAP,Forms a cross-linked network with hair keratin intermediate filaments,N/A
+Hair graying,IRF4,Melanin production; immune regulation,OMIM: 621097

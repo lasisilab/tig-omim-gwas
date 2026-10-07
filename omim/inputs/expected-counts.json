@@ -1,0 +1,35 @@
+{
+  "all": {
+    "source_cells": 319,
+    "cells_with_ids": 210,
+    "id_mentions": 240,
+    "cited_ids": 192,
+    "returned_names": 192,
+    "resolved_targets": 191,
+    "mapped_targets": 191,
+    "gene_evidence": 225,
+    "genes": 162
+  },
+  "hair": {
+    "source_cells": 30,
+    "cells_with_ids": 20,
+    "id_mentions": 34,
+    "cited_ids": 27,
+    "returned_names": 27,
+    "resolved_targets": 27,
+    "mapped_targets": 27,
+    "gene_evidence": 30,
+    "genes": 19
+  },
+  "pigmentation": {
+    "source_cells": 289,
+    "cells_with_ids": 190,
+    "id_mentions": 206,
+    "cited_ids": 170,
+    "returned_names": 170,
+    "resolved_targets": 169,
+    "mapped_targets": 169,
+    "gene_evidence": 195,
+    "genes": 147
+  }
+}

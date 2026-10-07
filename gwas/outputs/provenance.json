@@ -1,0 +1,123 @@
+{
+  "script_sha256": "db5eb54474fabf26b5e6986057537cd878b9f65e062c6601a6731a9d4a0fdd20",
+  "analysis_api_calls": 0,
+  "source_runs": {
+    "terms": "data/gwas/runs/20261003T205534427125Z",
+    "associations": "data/gwas/reported-labels/runs/20261003T212349115394Z",
+    "studies": "data/gwas/studies/runs/20261003T215329065441Z"
+  },
+  "outputs": [
+    {
+      "file": "01-search-queries.csv",
+      "rows": 30,
+      "sha256": "17b42ac72a0d173f7a85c3c255bd7742aee4a21397d591f6868e1be90513a313"
+    },
+    {
+      "file": "01-term-matches.csv",
+      "rows": 87,
+      "sha256": "c5c5d538827969085ef3a1feb746d0c4a49c14f2f31d7676a9a6e519b9817592"
+    },
+    {
+      "file": "02-mapped-terms.csv",
+      "rows": 82,
+      "sha256": "97453bfbbb3d7c8e426ab298cbde5b4efc90afaeca026316a950aedd1a1d09bc"
+    },
+    {
+      "file": "03-classified-terms.csv",
+      "rows": 82,
+      "sha256": "14774491fe0052d2edbe10500c9974cbe0906eef55ad37b75b11d7bd42a86d4d"
+    },
+    {
+      "file": "03-selected-terms.csv",
+      "rows": 20,
+      "sha256": "8d10a7b6fe952375157b27aaef6faddbcfdf9cbac9cee5daadb17a40326a769f"
+    },
+    {
+      "file": "03-unselected-terms.csv",
+      "rows": 62,
+      "sha256": "d043cf4a84da3af519da894a1891ab434aa38b59fefff76fbad7c3570cc834e2"
+    },
+    {
+      "file": "04-query-association-occurrences.csv",
+      "rows": 3060,
+      "sha256": "b6423db0bda2f84b6a55f02781a0c0ffcc52e03e71951f7150e2a9cee7e826d7"
+    },
+    {
+      "file": "04-associations.csv",
+      "rows": 3037,
+      "sha256": "47ceb7648e03f604d2c860e0fdcac6e63acc8fd7f43552dcaa9a61b2366453a1"
+    },
+    {
+      "file": "05-study-samples.csv",
+      "rows": 149,
+      "sha256": "edd9317d50e19a2e3619dee02df72405af4d097430c1ea376d70f966cdb71d6b"
+    },
+    {
+      "file": "05-ancestry-records.csv",
+      "rows": 203,
+      "sha256": "31e38516d56026c61a7fe9d771cd0dc1a58c8633d9e6be23df072cf63c9c6e94"
+    },
+    {
+      "file": "05-sample-eligible-associations.csv",
+      "rows": 3037,
+      "sha256": "2e377bdb50e4139eae234ed692261c486c65760ffd1b948e384e1682c663fa07"
+    },
+    {
+      "file": "06-mapped-associations.csv",
+      "rows": 2746,
+      "sha256": "35a03f15c8c9fbe2378d79d327940d05554302120e8641cd22e24d2f00a88dd2"
+    },
+    {
+      "file": "06-unmapped-associations.csv",
+      "rows": 291,
+      "sha256": "b9194f06a5024f800c7c8776d02a6e3818672d264f6cbfb40558c7f3ca3e9a28"
+    },
+    {
+      "file": "07-gene-evidence.csv",
+      "rows": 3590,
+      "sha256": "24986c2ff35b9b67247ebd11bde60c28d50cf5ffa6f5c1f6b2ff1264f388b9b7"
+    },
+    {
+      "file": "07-gene-support.csv",
+      "rows": 1417,
+      "sha256": "ab2237aebc2f1aa7d5075de6a4261c54edc526ab180a0373ec1e97dd94712c8d"
+    },
+    {
+      "file": "08-retained-genes.csv",
+      "rows": 334,
+      "sha256": "43eecec71a5cee96b81615eb566e4350e1391e494d4b87b457599af857564875"
+    },
+    {
+      "file": "08-removed-genes.csv",
+      "rows": 1083,
+      "sha256": "34d6fb702a47b44cf9ef106351d6ddb0650b7425a5256d4f3866f266fae3eca9"
+    },
+    {
+      "file": "09-workflow-sankey-flows.csv",
+      "rows": 27,
+      "sha256": "e7497d6367921ee827ecbbe4eb746d33591591c432a1657da1365cb0dfada546"
+    },
+    {
+      "file": "diagram-counts.csv",
+      "rows": 21,
+      "sha256": "1af4aa913bf464be5e3d54f7304750ee3dedf48cbe589dadcc1e1932e2673439"
+    },
+    {
+      "file": "stage-input-output.csv",
+      "rows": 8,
+      "sha256": "a19346d48a4b351f14a20bdeb4429649ac59903fc65312a5571db7c6cde8ca04"
+    },
+    {
+      "file": "input-manifest.csv",
+      "rows": 370,
+      "sha256": "7cd82dceeaeac9044fd0b34ea9265af8026560ba47667c17fb3b98c97073170b"
+    },
+    {
+      "file": "verification.json",
+      "sha256": "cc5724a38a39d284e3de7861790244d4eda000429819234fce76071bbfe59010"
+    }
+  ],
+  "mode": "pinned snapshot reproduction",
+  "retrieval_script_sha256": "95ef33c77f1f269e8e69af60645a44cf541cac6381fa918da452899d85f65e81",
+  "recorded_api_responses": 351
+}

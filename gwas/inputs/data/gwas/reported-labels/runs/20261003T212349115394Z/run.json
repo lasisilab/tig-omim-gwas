@@ -1,0 +1,7 @@
+{
+  "api": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations",
+  "query_sha256": "9c928e1dd632abd5ff2825c22b70fd2f652893f539c774aeca3a22a1f0a76d48",
+  "query_terms_sha256": "ace566cd41bd4ed25cc915398e43c3287197594940ebdcfa93254d2b49dac8aa",
+  "requests_sha256": "1c0d9e2baced76450427fc3d9f39db5298a92c0208b90e34612fc35a132ab2ce",
+  "completed_utc": "2026-10-03T21:27:50.603719+00:00"
+}

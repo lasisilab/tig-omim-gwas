@@ -1,0 +1,6 @@
+{
+  "api": "https://api.omim.org/api/entry",
+  "seed_file": "data/omim/omim_ids.csv",
+  "include": "geneMap",
+  "batch_size": 20
+}

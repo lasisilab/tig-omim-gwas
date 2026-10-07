@@ -1,0 +1,5 @@
+setting,value
+selection,strict + broad
+minimum_publications,2
+minimum_discovery_sample_size,unset
+matching,Exact gene names; no alias harmonization

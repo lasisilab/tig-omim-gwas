@@ -1,0 +1,8 @@
+{
+  "api": "https://www.ebi.ac.uk/gwas/rest/api/v2/efo-traits",
+  "run_id": "20261003T205534427125Z",
+  "config_sha256": "756ebbb5df7bda36dd073814aceaab023bc034e513b94b9d2ea531b2e88c9679",
+  "requests_sha256": "d8508bfe6a310ab9343ddcc69112d964ff890fa8809f9a708adda1ac3b08a37b",
+  "request_count": 30,
+  "completed_utc": "2026-10-03T20:56:16.550210+00:00"
+}

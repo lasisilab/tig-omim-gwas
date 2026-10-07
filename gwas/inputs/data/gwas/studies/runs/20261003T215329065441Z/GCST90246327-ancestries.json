@@ -1,0 +1,1 @@
+{"_embedded":{"ancestries":[{"type":"initial","number_of_individuals":27254,"ancestral_groups":[{"ancestral_group":"European"}],"country_of_origin":[],"country_of_recruitment":[{"major_area":"Europe","region":"Western Europe","country_name":"Netherlands"}],"_links":{"self":{"href":"https://www.ebi.ac.uk/gwas/rest/api/v2/studies/GCST90246327/ancestries/103607530"}}}]}}

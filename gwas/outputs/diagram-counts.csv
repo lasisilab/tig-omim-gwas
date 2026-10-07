@@ -1,0 +1,22 @@
+panel,stage,count,unit
+All queries,Keyword queries,30,queries
+All queries,Distinct mapped terms,82,ontology IDs
+All queries,Selected terms,20,ontology IDs
+pigmentation,Selected mapped terms: strict + broad,11,ontology IDs
+pigmentation,Retrieved associations,2819,association IDs
+pigmentation,Catalog studies,128,Catalog study IDs
+pigmentation,Papers,45,distinct nonempty PubMed IDs
+pigmentation,With mapped gene names,2531,association IDs
+pigmentation,No mapped genes,288,association IDs
+pigmentation,Distinct mapped gene names,1209,exact gene names
+pigmentation,At least 2 papers,301,exact gene names
+pigmentation,Removed by the paper filter,908,exact gene names
+hair,Selected mapped terms: strict + broad,9,ontology IDs
+hair,Retrieved associations,218,association IDs
+hair,Catalog studies,22,Catalog study IDs
+hair,Papers,15,distinct nonempty PubMed IDs
+hair,With mapped gene names,215,association IDs
+hair,No mapped genes,3,association IDs
+hair,Distinct mapped gene names,208,exact gene names
+hair,At least 2 papers,33,exact gene names
+hair,Removed by the paper filter,175,exact gene names

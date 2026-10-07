@@ -1,0 +1,21 @@
+label,uri,efo_id,group,scope,rule_id
+hair color,http://www.ebi.ac.uk/efo/EFO_0003924,EFO_0003924,pigmentation,strict,pigmentation-color
+eye color,http://www.ebi.ac.uk/efo/EFO_0003949,EFO_0003949,pigmentation,strict,pigmentation-color
+freckles,http://www.ebi.ac.uk/efo/EFO_0003963,EFO_0003963,pigmentation,broad,pigmentation-pattern
+suntan,http://www.ebi.ac.uk/efo/EFO_0004279,EFO_0004279,pigmentation,broad,sun-response
+hair morphology,http://www.ebi.ac.uk/efo/EFO_0005038,EFO_0005038,hair,strict,generic-morphology
+synophrys measurement,http://www.ebi.ac.uk/efo/EFO_0007906,EFO_0007906,hair,broad,facial-hair
+age at first facial hair,http://www.ebi.ac.uk/efo/EFO_0009716,EFO_0009716,hair,broad,facial-hair-onset
+eye colour measurement,http://www.ebi.ac.uk/efo/EFO_0009764,EFO_0009764,pigmentation,strict,pigmentation-color
+melanin measurement,http://www.ebi.ac.uk/efo/EFO_0021835,EFO_0021835,pigmentation,strict,pigmentation-color
+Widow's peak,http://purl.obolibrary.org/obo/HP_0000349,HP_0000349,hair,broad,hairline
+Hirsutism,http://purl.obolibrary.org/obo/HP_0001007,HP_0001007,hair,broad,body-hair
+sunburn,http://purl.obolibrary.org/obo/MONDO_0005326,MONDO_0005326,pigmentation,broad,sun-response
+skin sensitivity to sun,http://purl.obolibrary.org/obo/MONDO_0005434,MONDO_0005434,pigmentation,broad,sun-response
+hypertrichosis,http://purl.obolibrary.org/obo/MONDO_0019280,MONDO_0019280,hair,broad,body-hair
+strand of hair color,http://purl.obolibrary.org/obo/OBA_0002313,OBA_0002313,pigmentation,strict,pigmentation-color
+strand of hair shape,http://purl.obolibrary.org/obo/OBA_0003493,OBA_0003493,hair,strict,fiber-shape
+facial pigmentation,http://purl.obolibrary.org/obo/OBA_2045282,OBA_2045282,pigmentation,strict,pigmentation-color
+facial hair thickness,http://purl.obolibrary.org/obo/OBA_2050112,OBA_2050112,hair,broad,facial-hair
+coat/hair morphology trait,http://purl.obolibrary.org/obo/OBA_VT0000367,OBA_VT0000367,hair,strict,generic-morphology
+skin pigmentation,http://purl.obolibrary.org/obo/OBA_VT0002095,OBA_VT0002095,pigmentation,strict,pigmentation-color

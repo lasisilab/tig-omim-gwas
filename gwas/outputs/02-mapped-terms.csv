@@ -1,0 +1,83 @@
+efo_id,label,uri
+EFO_0003924,hair color,http://www.ebi.ac.uk/efo/EFO_0003924
+EFO_0003949,eye color,http://www.ebi.ac.uk/efo/EFO_0003949
+EFO_0003963,freckles,http://www.ebi.ac.uk/efo/EFO_0003963
+EFO_0004279,suntan,http://www.ebi.ac.uk/efo/EFO_0004279
+EFO_0005038,hair morphology,http://www.ebi.ac.uk/efo/EFO_0005038
+EFO_0007906,synophrys measurement,http://www.ebi.ac.uk/efo/EFO_0007906
+EFO_0008277,Secreted frizzled-related protein 3 measurement,http://www.ebi.ac.uk/efo/EFO_0008277
+EFO_0008460,colorectal health,http://www.ebi.ac.uk/efo/EFO_0008460
+EFO_0009361,colorectal mucinous adenocarcinoma,http://www.ebi.ac.uk/efo/EFO_0009361
+EFO_0009716,age at first facial hair,http://www.ebi.ac.uk/efo/EFO_0009716
+EFO_0009764,eye colour measurement,http://www.ebi.ac.uk/efo/EFO_0009764
+EFO_0009855,frontal fibrosing alopecia,http://www.ebi.ac.uk/efo/EFO_0009855
+EFO_0010729,sun exposure measurement,http://www.ebi.ac.uk/efo/EFO_0010729
+EFO_0020718,secreted frizzled-related protein 1 measurement,http://www.ebi.ac.uk/efo/EFO_0020718
+EFO_0021425,pigmentary glaucoma,http://www.ebi.ac.uk/efo/EFO_0021425
+EFO_0021835,melanin measurement,http://www.ebi.ac.uk/efo/EFO_0021835
+EFO_0021847,pigment epithelium-derived factor measurement,http://www.ebi.ac.uk/efo/EFO_0021847
+EFO_0802039,secreted frizzled-related protein 2 measurement,http://www.ebi.ac.uk/efo/EFO_0802039
+EFO_0802102,SUN domain-containing protein 3 measurement,http://www.ebi.ac.uk/efo/EFO_0802102
+EFO_0802103,SUN domain-containing protein 5 measurement,http://www.ebi.ac.uk/efo/EFO_0802103
+EFO_0803377,metachronous colorectal adenoma,http://www.ebi.ac.uk/efo/EFO_0803377
+EFO_0920047,response to sunitinib,http://www.ebi.ac.uk/efo/EFO_0920047
+EFO_1000755,pigmentation disease,http://www.ebi.ac.uk/efo/EFO_1000755
+EFO_1001480,metastatic colorectal cancer,http://www.ebi.ac.uk/efo/EFO_1001480
+EFO_1002028,cicatricial alopecia,http://www.ebi.ac.uk/efo/EFO_1002028
+HP_0000349,Widow's peak,http://purl.obolibrary.org/obo/HP_0000349
+HP_0001000,Abnormal skin pigmentation,http://purl.obolibrary.org/obo/HP_0001000
+HP_0001007,Hirsutism,http://purl.obolibrary.org/obo/HP_0001007
+HP_0002293,Alopecia of scalp,http://purl.obolibrary.org/obo/HP_0002293
+MONDO_0001703,color vision disorder,http://purl.obolibrary.org/obo/MONDO_0001703
+MONDO_0002289,iris disorder,http://purl.obolibrary.org/obo/MONDO_0002289
+MONDO_0002967,dermatophytosis of scalp or beard,http://purl.obolibrary.org/obo/MONDO_0002967
+MONDO_0004907,alopecia,http://purl.obolibrary.org/obo/MONDO_0004907
+MONDO_0005008,colorectal adenocarcinoma,http://purl.obolibrary.org/obo/MONDO_0005008
+MONDO_0005326,sunburn,http://purl.obolibrary.org/obo/MONDO_0005326
+MONDO_0005339,androgenetic alopecia,http://purl.obolibrary.org/obo/MONDO_0005339
+MONDO_0005340,alopecia areata,http://purl.obolibrary.org/obo/MONDO_0005340
+MONDO_0005434,skin sensitivity to sun,http://purl.obolibrary.org/obo/MONDO_0005434
+MONDO_0005483,chemotherapy-induced alopecia,http://purl.obolibrary.org/obo/MONDO_0005483
+MONDO_0005484,colorectal adenoma,http://purl.obolibrary.org/obo/MONDO_0005484
+MONDO_0005575,colorectal cancer,http://purl.obolibrary.org/obo/MONDO_0005575
+MONDO_0006597,photosensitivity disease,http://purl.obolibrary.org/obo/MONDO_0006597
+MONDO_0010896,pigment dispersion syndrome,http://purl.obolibrary.org/obo/MONDO_0010896
+MONDO_0019200,retinitis pigmentosa,http://purl.obolibrary.org/obo/MONDO_0019200
+MONDO_0019278,hair anomaly,http://purl.obolibrary.org/obo/MONDO_0019278
+MONDO_0019280,hypertrichosis,http://purl.obolibrary.org/obo/MONDO_0019280
+MONDO_0024331,colorectal carcinoma,http://purl.obolibrary.org/obo/MONDO_0024331
+OBA_0002313,strand of hair color,http://purl.obolibrary.org/obo/OBA_0002313
+OBA_0003493,strand of hair shape,http://purl.obolibrary.org/obo/OBA_0003493
+OBA_2040301,level of frizzled-4 in blood serum,http://purl.obolibrary.org/obo/OBA_2040301
+OBA_2040302,level of frizzled-9 in blood serum,http://purl.obolibrary.org/obo/OBA_2040302
+OBA_2041639,level of frizzled-1 in blood serum,http://purl.obolibrary.org/obo/OBA_2041639
+OBA_2041640,level of frizzled-2 in blood serum,http://purl.obolibrary.org/obo/OBA_2041640
+OBA_2041641,level of frizzled-5 in blood serum,http://purl.obolibrary.org/obo/OBA_2041641
+OBA_2041642,level of frizzled-7 in blood serum,http://purl.obolibrary.org/obo/OBA_2041642
+OBA_2041643,level of frizzled-8 in blood serum,http://purl.obolibrary.org/obo/OBA_2041643
+OBA_2041868,level of hairy/enhancer-of-split related with YRPW motif protein 1 in blood serum,http://purl.obolibrary.org/obo/OBA_2041868
+OBA_2043313,level of retinitis pigmentosa 9 protein in blood serum,http://purl.obolibrary.org/obo/OBA_2043313
+OBA_2043475,level of secreted frizzled-related protein 2 in blood serum,http://purl.obolibrary.org/obo/OBA_2043475
+OBA_2043476,level of secreted frizzled-related protein 4 in blood serum,http://purl.obolibrary.org/obo/OBA_2043476
+OBA_2043477,level of secreted frizzled-related protein 5 in blood serum,http://purl.obolibrary.org/obo/OBA_2043477
+OBA_2043523,level of histone RNA hairpin-binding protein in blood serum,http://purl.obolibrary.org/obo/OBA_2043523
+OBA_2043612,level of SUN domain-containing protein 5 in blood serum,http://purl.obolibrary.org/obo/OBA_2043612
+OBA_2044231,level of SUN domain-containing protein 3 in blood serum,http://purl.obolibrary.org/obo/OBA_2044231
+OBA_2044337,level of tRNA (cytosine(72)-C(5))-methyltransferase NSUN6 in blood serum,http://purl.obolibrary.org/obo/OBA_2044337
+OBA_2045282,facial pigmentation,http://purl.obolibrary.org/obo/OBA_2045282
+OBA_2050112,facial hair thickness,http://purl.obolibrary.org/obo/OBA_2050112
+OBA_2050250,membrane frizzled-related protein amount,http://purl.obolibrary.org/obo/OBA_2050250
+OBA_2050327,age of onset of colorectal cancer,http://purl.obolibrary.org/obo/OBA_2050327
+OBA_2050648,level of frizzled-8 in blood,http://purl.obolibrary.org/obo/OBA_2050648
+OBA_2051148,level of frizzled-10 in blood,http://purl.obolibrary.org/obo/OBA_2051148
+OBA_2051697,level of X-linked retinitis pigmentosa GTPase regulator in blood,http://purl.obolibrary.org/obo/OBA_2051697
+OBA_2052764,amount of secreted frizzled-related protein 1 (human) in blood,http://purl.obolibrary.org/obo/OBA_2052764
+OBA_2055900,level of frizzled-9 (human) in cerebrospinal fluid,http://purl.obolibrary.org/obo/OBA_2055900
+OBA_2057744,level of pigment epithelium-derived factor (human) in cerebrospinal fluid,http://purl.obolibrary.org/obo/OBA_2057744
+OBA_2059279,level of secreted frizzled-related protein 4 (human) in cerebrospinal fluid,http://purl.obolibrary.org/obo/OBA_2059279
+OBA_2059792,level of secreted frizzled-related protein 1 (human) in cerebrospinal fluid,http://purl.obolibrary.org/obo/OBA_2059792
+OBA_2080182,level of secreted frizzled-related protein 3 (human) in cerebrospinal fluid,http://purl.obolibrary.org/obo/OBA_2080182
+OBA_2080970,level of frizzled-8 (human) in cerebrospinal fluid,http://purl.obolibrary.org/obo/OBA_2080970
+OBA_2081634,level of frizzled-10 (human) in cerebrospinal fluid,http://purl.obolibrary.org/obo/OBA_2081634
+OBA_VT0000367,coat/hair morphology trait,http://purl.obolibrary.org/obo/OBA_VT0000367
+OBA_VT0002095,skin pigmentation,http://purl.obolibrary.org/obo/OBA_VT0002095

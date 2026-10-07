@@ -1,0 +1,21 @@
+group,label,efo_id,scope
+pigmentation,hair color,EFO_0003924,strict
+pigmentation,eye color,EFO_0003949,strict
+pigmentation,freckles,EFO_0003963,broad
+pigmentation,suntan,EFO_0004279,broad
+hair,hair morphology,EFO_0005038,strict
+hair,synophrys measurement,EFO_0007906,broad
+hair,age at first facial hair,EFO_0009716,broad
+pigmentation,eye colour measurement,EFO_0009764,strict
+pigmentation,melanin measurement,EFO_0021835,strict
+hair,Widow's peak,HP_0000349,broad
+hair,Hirsutism,HP_0001007,broad
+pigmentation,sunburn,MONDO_0005326,broad
+pigmentation,skin sensitivity to sun,MONDO_0005434,broad
+hair,hypertrichosis,MONDO_0019280,broad
+pigmentation,strand of hair color,OBA_0002313,strict
+hair,strand of hair shape,OBA_0003493,strict
+pigmentation,facial pigmentation,OBA_2045282,strict
+hair,facial hair thickness,OBA_2050112,broad
+hair,coat/hair morphology trait,OBA_VT0000367,strict
+pigmentation,skin pigmentation,OBA_VT0002095,strict

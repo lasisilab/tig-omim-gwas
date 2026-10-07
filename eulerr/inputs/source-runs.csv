@@ -1,0 +1,6 @@
+stage,run_directory,run_sha256
+omim_names,../omim/inputs/local-data/omim/20261003T194302691696Z,0d904e6c3b5f3ef9e9205927328a561ba7c24dac86214ec299209b97807c85cc
+omim_gene_maps,../omim/inputs/local-data/omim-genes/20261003T214726845036Z,108df5443be2623fa6875e7739fac79cb058eb98d6bee28c1b70b8d3e743f74a
+gwas_terms,../gwas/inputs/data/gwas/runs/20261003T205534427125Z,067af3ed1aba6dd63e40035799d781de2984420c520f14fe302bd129fcc90611
+gwas_associations,../gwas/inputs/data/gwas/reported-labels/runs/20261003T212349115394Z,917ef555630d99228d919e2843e9cf8ffe0321552f43ae05b466e105b5679ea9
+gwas_studies,../gwas/inputs/data/gwas/studies/runs/20261003T215329065441Z,ffe2575ae510fde0a7575f653eba60125623f594c35519be20a7c87419591acf

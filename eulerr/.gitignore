@@ -1,0 +1,5 @@
+/.library/
+/inputs/omim-*-genes.csv
+/outputs/
+Rplots.pdf
+.Rhistory

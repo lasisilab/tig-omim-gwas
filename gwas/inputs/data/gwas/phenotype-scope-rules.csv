@@ -1,0 +1,3 @@
+rule_id,query_group,field,pattern,scope
+hair_whorl,hair,reported_trait,whorl,broad
+hair_balding,hair,mapped_labels,balding|baldness|alopecia,broad

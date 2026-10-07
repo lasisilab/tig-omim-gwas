@@ -1,0 +1,8 @@
+{
+  "api": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations",
+  "selection_file": "data/gwas/classified-terms.csv",
+  "groups": ["pigmentation", "hair"],
+  "scopes": ["strict", "broad"],
+  "show_child_trait": false,
+  "page_size": 500
+}

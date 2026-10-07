@@ -1,0 +1,138 @@
+[
+  {
+    "file": "data/darcy2023_tableS1.xlsx",
+    "sha256": "8fee7cb0d40fba1ef9653f7cc75d0fc1de8874e43cead7108acb86f3ac560226"
+  },
+  {
+    "file": "data/needle2025.pdf",
+    "sha256": "371fa15068ce6f4a181c55bf61e6f1b4e0455eb7141d7db86d5643222500afc6"
+  },
+  {
+    "file": "data/needle2025_table1.csv",
+    "sha256": "45003e992cef26dbf09947c0fe3bacfcbc819fc74f66b4d6a6ebf8a97c790f39"
+  },
+  {
+    "file": "data/needle2025_table2.csv",
+    "sha256": "6ea6f6aeb17d0498f1a97b3715b9ee417652de8f6d59074d052bd13b68c76f64"
+  },
+  {
+    "file": "data/omim/gene-query.json",
+    "sha256": "fb4e36ffb920681dc94f503ee2b6c0e5c7d9d336191a41052c70c02d0dc65cf9"
+  },
+  {
+    "file": "expected-counts.json",
+    "sha256": "309b8a667543ad55d431325fae11b8a302cbf3191b4dbc732f4784767ce7bee7"
+  },
+  {
+    "file": "input-manifest.json",
+    "sha256": "1bca9078e2dad2ea8650e1ce455e316a2e2b21fed62efd9b4dda7d2983dbe023"
+  },
+  {
+    "file": "local-data/omim/20261003T194302691696Z/requests.json",
+    "sha256": "8c53f3cf98dd5a696fbe7b922dcf16407bbeac6b6aaa62c11237b90d3c5df4d2"
+  },
+  {
+    "file": "local-data/omim/20261003T194302691696Z/response-01.json",
+    "sha256": "16020e4d322b83b96da79f72b88cd1ffe7fa8f3d4158c39c13c573d427402f5c"
+  },
+  {
+    "file": "local-data/omim/20261003T194302691696Z/response-02.json",
+    "sha256": "cc1d68f38945df2001685eea2d479db6d157defa918069dfb6bce117efee41c6"
+  },
+  {
+    "file": "local-data/omim/20261003T194302691696Z/response-03.json",
+    "sha256": "168ca61ded00bef1be985c8e5569997845eb514ee19dd3d534568677a2ea5753"
+  },
+  {
+    "file": "local-data/omim/20261003T194302691696Z/response-04.json",
+    "sha256": "1d4e0b0f79b1e771b56c50bc78a979f95a716420dd2e94c77dcdc59adfb78f6f"
+  },
+  {
+    "file": "local-data/omim/20261003T194302691696Z/response-05.json",
+    "sha256": "07ca3e1649b1ddec1a04f349f2182aa4598a3084da19deec6ae22ad8b81af3cc"
+  },
+  {
+    "file": "local-data/omim/20261003T194302691696Z/response-06.json",
+    "sha256": "a6530a132b62025446d792684956c0b7c309fddc2ec0def96bc80d2abd1b53ff"
+  },
+  {
+    "file": "local-data/omim/20261003T194302691696Z/response-07.json",
+    "sha256": "237da045a03c715870613e5e8d07e0e78257c144fe9f4bfbfaceb1280a339706"
+  },
+  {
+    "file": "local-data/omim/20261003T194302691696Z/response-08.json",
+    "sha256": "b6e9028ac5f59aa12c96fe7f9de0378b5f4f11631019b4d29159687c1f0a3757"
+  },
+  {
+    "file": "local-data/omim/20261003T194302691696Z/response-09.json",
+    "sha256": "9aa1479badaee62e33cc786c91e19e6f943188d70706b11485844898d4f6960c"
+  },
+  {
+    "file": "local-data/omim/20261003T194302691696Z/response-10.json",
+    "sha256": "e150d3146d05a00ecd74311b665fce2250c86f87041dd57e0d2dd3c0149ce4a5"
+  },
+  {
+    "file": "local-data/omim/20261003T194302691696Z/run.json",
+    "sha256": "0d904e6c3b5f3ef9e9205927328a561ba7c24dac86214ec299209b97807c85cc"
+  },
+  {
+    "file": "local-data/omim/latest.json",
+    "sha256": "4d02ad60498d0f1c45a5d64c51955827f47dbff6492322fb6973ecb12d6f6d74"
+  },
+  {
+    "file": "local-data/omim-genes/20261003T214726845036Z/query.json",
+    "sha256": "fb4e36ffb920681dc94f503ee2b6c0e5c7d9d336191a41052c70c02d0dc65cf9"
+  },
+  {
+    "file": "local-data/omim-genes/20261003T214726845036Z/requests.json",
+    "sha256": "4aebafe6570a8f9fd6a2c8aab9550605cad27856933a81e432e75db7df2451ec"
+  },
+  {
+    "file": "local-data/omim-genes/20261003T214726845036Z/response-01.json",
+    "sha256": "77449a9573fc3ec381039caf1c08282473553c31bad5d48dfd0276775d8a4da9"
+  },
+  {
+    "file": "local-data/omim-genes/20261003T214726845036Z/response-02.json",
+    "sha256": "fb995198498f4b6a0d4191bae377f2fa864a54d5c41e6698dcd0777b3b26e121"
+  },
+  {
+    "file": "local-data/omim-genes/20261003T214726845036Z/response-03.json",
+    "sha256": "3d9ed4264741ec937165845bf6ebb91db883be74c06a9c14cbed0f223439d04f"
+  },
+  {
+    "file": "local-data/omim-genes/20261003T214726845036Z/response-04.json",
+    "sha256": "3b2a460038bc78c74ba7b79dfc897d59f091af3cb5515fefa0ab86ad030a73d4"
+  },
+  {
+    "file": "local-data/omim-genes/20261003T214726845036Z/response-05.json",
+    "sha256": "01eeb56144c8994bda0e9c1e8942188ce1be58e57a1069b705fb15532876499b"
+  },
+  {
+    "file": "local-data/omim-genes/20261003T214726845036Z/response-06.json",
+    "sha256": "21af2c0fcff526b12f34ab8cdab7f0a60bc7787e91d6441c614fcb9213817295"
+  },
+  {
+    "file": "local-data/omim-genes/20261003T214726845036Z/response-07.json",
+    "sha256": "c0a9280efc80cddae4c0980277f5aeb143d57d3d955d7bae295bd8ee5d3425cb"
+  },
+  {
+    "file": "local-data/omim-genes/20261003T214726845036Z/response-08.json",
+    "sha256": "3e25a23c0de942fcf98e3a25301d2411f36c9ee4b47b7142b27d90eb66d49f4a"
+  },
+  {
+    "file": "local-data/omim-genes/20261003T214726845036Z/response-09.json",
+    "sha256": "ac4d131e3e45d3f21cfc71dfdf5cf7c815554db52253167e05fee29b0088c21e"
+  },
+  {
+    "file": "local-data/omim-genes/20261003T214726845036Z/response-10.json",
+    "sha256": "8e7f9dfbb59653105484a1f7eda316e94b6bc5fb17318b19692a27a964512454"
+  },
+  {
+    "file": "local-data/omim-genes/20261003T214726845036Z/run.json",
+    "sha256": "108df5443be2623fa6875e7739fac79cb058eb98d6bee28c1b70b8d3e743f74a"
+  },
+  {
+    "file": "local-data/omim-genes/latest.json",
+    "sha256": "305b60574be2de9d65551b304f1a25326f8ef917b2fb4023bb6fc3e6948180f2"
+  }
+]

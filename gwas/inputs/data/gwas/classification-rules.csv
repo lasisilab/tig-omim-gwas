@@ -1,0 +1,19 @@
+rule_id,group,scope,label_regex,reason
+protein-measurement,,excluded,protein|frizzled|^level of |^amount of |pigment epithelium-derived factor,Molecular abundance rather than a pigmentation or hair phenotype.
+drug-response,,excluded,^response to sunitinib$,Drug response; incidental match to the search text sun.
+unrelated-pigment-match,,excluded,colorectal|color vision|iris disorder|glaucoma|retinitis pigmentosa|pigment dispersion,Unrelated disease or visual phenotype.
+pigmentation-disorder,pigmentation,excluded,^(pigmentation disease|abnormal skin pigmentation)$,General clinical category rather than ordinary pigmentation variation.
+exposure,pigmentation,excluded,^sun exposure measurement$,Environmental exposure rather than an intrinsic pigmentation or sun-response trait.
+photosensitivity-disease,pigmentation,excluded,^photosensitivity disease$,General disease category; ordinary sun response is retained separately.
+scalp-infection,hair,excluded,dermatophytosis,Infection rather than hair morphology.
+hair-loss,hair,excluded,alopecia|baldness,Hair loss rather than fiber shape or thickness.
+hair-anomaly,hair,excluded,^hair anomaly$,General clinical category rather than ordinary fiber morphology.
+pigmentation-color,pigmentation,strict,^(hair colou?r|strand of hair colou?r|eye colou?r( measurement)?|skin pigmentation|facial pigmentation|melanin measurement)$,Pigmentation amount or color in hair or skin or eyes.
+pigmentation-pattern,pigmentation,broad,^freckles$,Spatial pigmentation pattern beyond baseline amount or color.
+sun-response,pigmentation,broad,^(suntan|sunburn|skin sensitivity to sun)$,Tanning or response to sunlight.
+fiber-shape,hair,strict,^strand of hair shape$,Fiber shape; verify scalp site and reported measurement.
+generic-morphology,hair,strict,^(hair morphology|coat/hair morphology trait)$,Hair morphology; verify the reported measurement when retrieving associations.
+facial-hair,hair,broad,facial hair thickness|synophrys|eyebrow|beard,Facial hair thickness or distribution rather than scalp fiber morphology.
+facial-hair-onset,hair,broad,^age at first facial hair$,Developmental timing of facial hair.
+hairline,hair,broad,widow.?s peak|whorl,Hairline or growth orientation rather than fiber shape.
+body-hair,hair,broad,hypertrichosis|hirsutism,Excess hair growth; related clinical trait.

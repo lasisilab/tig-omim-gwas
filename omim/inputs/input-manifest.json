@@ -1,0 +1,79 @@
+{
+  "format_version": 1,
+  "prepared_at_utc": "2026-10-03T19:14:14.092755+00:00",
+  "files": [
+    {
+      "file": "data/darcy2023_tableS1.xlsx",
+      "paper": "D’Arcy and Kiel (2023)",
+      "doi": "10.3390/bioengineering10010013",
+      "material": "Supplementary Table S1",
+      "original_filename": "Table S1 Bioengineering FINAL.xlsx",
+      "worksheet": "Sheet 1",
+      "header_row": 3,
+      "license": "CC BY 4.0",
+      "method": "Original supplementary workbook; unchanged.",
+      "bytes": 42669,
+      "sha256": "8fee7cb0d40fba1ef9653f7cc75d0fc1de8874e43cead7108acb86f3ac560226"
+    },
+    {
+      "file": "data/needle2025.pdf",
+      "paper": "Needle et al. (2025)",
+      "doi": "10.1016/j.jid.2025.07.004",
+      "material": "Article",
+      "license": "CC BY-NC-ND 4.0",
+      "method": "Publisher PDF; unchanged.",
+      "bytes": 874901,
+      "sha256": "371fa15068ce6f4a181c55bf61e6f1b4e0455eb7141d7db86d5643222500afc6"
+    },
+    {
+      "file": "data/needle2025_table1.csv",
+      "paper": "Needle et al. (2025)",
+      "doi": "10.1016/j.jid.2025.07.004",
+      "material": "Table 1",
+      "source_pdf": "data/needle2025.pdf",
+      "pdf_pages": [
+        2
+      ],
+      "journal_pages": [
+        2965
+      ],
+      "rows": 7,
+      "license": "Source article: CC BY-NC-ND 4.0",
+      "method": "Verified PDF table transcription; counts stored as integers; line-wrap space removed after morphology/.",
+      "bytes": 250,
+      "sha256": "45003e992cef26dbf09947c0fe3bacfcbc819fc74f66b4d6a6ebf8a97c790f39",
+      "columns": [
+        "Traits",
+        "Number of GWASs",
+        "Largest Sample Size",
+        "Number of Loci"
+      ]
+    },
+    {
+      "file": "data/needle2025_table2.csv",
+      "paper": "Needle et al. (2025)",
+      "doi": "10.1016/j.jid.2025.07.004",
+      "material": "Table 2",
+      "source_pdf": "data/needle2025.pdf",
+      "pdf_pages": [
+        5,
+        6
+      ],
+      "journal_pages": [
+        2968,
+        2969
+      ],
+      "rows": 41,
+      "license": "Source article: CC BY-NC-ND 4.0",
+      "method": "Verified PDF table transcription; merged trait cells filled down; wrapped text joined; OMIM line breaks, gene qualifiers, N/A, and published wording retained.",
+      "bytes": 4172,
+      "sha256": "6ea6f6aeb17d0498f1a97b3715b9ee417652de8f6d59074d052bd13b68c76f64",
+      "columns": [
+        "Trait",
+        "Gene Set",
+        "Pathway/Function",
+        "Mendelian Disease Genes"
+      ]
+    }
+  ]
+}
