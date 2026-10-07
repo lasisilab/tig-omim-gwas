@@ -18,7 +18,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-      - uses: quarto-dev/actions/setup@v2
+      - uses: quarto-dev/quarto-actions/setup@v2
         with:
           version: 1.7.32
       - uses: actions/configure-pages@v5
