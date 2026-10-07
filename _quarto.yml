@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - methods.qmd
+    - genes.qmd
+  pre-render: python3 website.py
+  resources:
+    - downloads/**
+    - figures/**
+    - supplementary-tables/**
+website:
+  title: "Pigmentation and hair genes"
+  site-url: https://lasisilab.github.io/tig-omim-gwas/
+  repo-url: https://github.com/lasisilab/tig-omim-gwas
+  navbar:
+    left:
+      - href: index.qmd
+        text: Overview
+      - href: methods.qmd
+        text: Methods
+      - href: genes.qmd
+        text: Genes and downloads
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    lang: en

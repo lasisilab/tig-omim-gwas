@@ -1,0 +1,452 @@
+{
+  "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi",
+  "parameters": {
+    "db": "pubmed",
+    "id": "17952075,18252221,18483556,18488028,19340012,19896111,20463881,20585627,22556244,23118974,23548203,25705849,25963972,26184321,26926045,27182965,27487801,29109912,29195075,29220522,29662168,29739929,29895819,30166351,30248107,30531825,30595370,30664655,30895295,31315583,32341527,32835660,33190678,33600456,33692100,34265127,34570997,34648798,34737426,34737440,35313536,36035146,36536295,36672889,37565938,38728357,40010489,42190866,42586059",
+    "retmode": "xml"
+  },
+  "retrieved_utc": "2026-10-07T11:04:19.191668+00:00",
+  "records": {
+    "17952075": {
+      "author": "Sulem, P.",
+      "multiple_authors": true,
+      "year": "2007",
+      "title": "Genetic determinants of hair, eye and skin pigmentation in Europeans.",
+      "journal": "Nat Genet",
+      "volume": "39",
+      "pages": "1443-52"
+    },
+    "18252221": {
+      "author": "Kayser, M.",
+      "multiple_authors": true,
+      "year": "2008",
+      "title": "Three genome-wide association studies and a linkage analysis identify HERC2 as a human iris color gene.",
+      "journal": "Am J Hum Genet",
+      "volume": "82",
+      "pages": "411-23"
+    },
+    "18483556": {
+      "author": "Han, J.",
+      "multiple_authors": true,
+      "year": "2008",
+      "title": "A genome-wide association study identifies novel alleles associated with hair color and skin pigmentation.",
+      "journal": "PLoS Genet",
+      "volume": "4",
+      "pages": "e1000074"
+    },
+    "18488028": {
+      "author": "Sulem, P.",
+      "multiple_authors": true,
+      "year": "2008",
+      "title": "Two newly identified genetic determinants of pigmentation in Europeans.",
+      "journal": "Nat Genet",
+      "volume": "40",
+      "pages": "835-7"
+    },
+    "19340012": {
+      "author": "Nan, H.",
+      "multiple_authors": true,
+      "year": "2009",
+      "title": "Genome-wide association study of tanning phenotype in a population of European ancestry.",
+      "journal": "J Invest Dermatol",
+      "volume": "129",
+      "pages": "2250-7"
+    },
+    "19896111": {
+      "author": "Medland, S.E.",
+      "multiple_authors": true,
+      "year": "2009",
+      "title": "Common variants in the trichohyalin gene are associated with straight hair in Europeans.",
+      "journal": "Am J Hum Genet",
+      "volume": "85",
+      "pages": "750-5"
+    },
+    "20463881": {
+      "author": "Liu, F.",
+      "multiple_authors": true,
+      "year": "2010",
+      "title": "Digital quantification of human eye color highlights genetic association of three new loci.",
+      "journal": "PLoS Genet",
+      "volume": "6",
+      "pages": "e1000934"
+    },
+    "20585627": {
+      "author": "Eriksson, N.",
+      "multiple_authors": true,
+      "year": "2010",
+      "title": "Web-based, participant-driven studies yield novel genetic associations for common traits.",
+      "journal": "PLoS Genet",
+      "volume": "6",
+      "pages": "e1000993"
+    },
+    "22556244": {
+      "author": "Kenny, E.E.",
+      "multiple_authors": true,
+      "year": "2012",
+      "title": "Melanesian blond hair is caused by an amino acid change in TYRP1.",
+      "journal": "Science",
+      "volume": "336",
+      "pages": "554"
+    },
+    "23118974": {
+      "author": "Candille, S.I.",
+      "multiple_authors": true,
+      "year": "2012",
+      "title": "Genome-wide association studies of quantitatively measured skin, hair, and eye pigmentation in four European populations.",
+      "journal": "PLoS One",
+      "volume": "7",
+      "pages": "e48294"
+    },
+    "23548203": {
+      "author": "Zhang, M.",
+      "multiple_authors": true,
+      "year": "2013",
+      "title": "Genome-wide association studies identify several new loci associated with pigmentation traits and skin cancer risk in European Americans.",
+      "journal": "Hum Mol Genet",
+      "volume": "22",
+      "pages": "2948-59"
+    },
+    "25705849": {
+      "author": "Jacobs, L.C.",
+      "multiple_authors": true,
+      "year": "2015",
+      "title": "A Genome-Wide Association Study Identifies the Skin Color Genes IRF4, MC1R, ASIP, and BNC2 Influencing Facial Pigmented Spots.",
+      "journal": "J Invest Dermatol",
+      "volume": "135",
+      "pages": "1735-1742"
+    },
+    "25963972": {
+      "author": "Liu, F.",
+      "multiple_authors": true,
+      "year": "2015",
+      "title": "Genetics of skin color variation in Europeans: genome-wide association studies with functional follow-up.",
+      "journal": "Hum Genet",
+      "volume": "134",
+      "pages": "823-35"
+    },
+    "26184321": {
+      "author": "Lin, B.D.",
+      "multiple_authors": true,
+      "year": "2015",
+      "title": "Heritability and Genome-Wide Association Studies for Hair Color in a Dutch Twin Family Based Sample.",
+      "journal": "Genes (Basel)",
+      "volume": "6",
+      "pages": "559-76"
+    },
+    "26926045": {
+      "author": "Adhikari, K.",
+      "multiple_authors": true,
+      "year": "2016",
+      "title": "A genome-wide association scan in admixed Latin Americans identifies loci influencing facial and scalp hair features.",
+      "journal": "Nat Commun",
+      "volume": "7",
+      "pages": "10815"
+    },
+    "27182965": {
+      "author": "Pickrell, J.K.",
+      "multiple_authors": true,
+      "year": "2016",
+      "title": "Detection and interpretation of shared genetic influences on 42 human traits.",
+      "journal": "Nat Genet",
+      "volume": "48",
+      "pages": "709-17"
+    },
+    "27487801": {
+      "author": "Wu, S.",
+      "multiple_authors": true,
+      "year": "2016",
+      "title": "Genome-wide scans reveal variants at EDAR predominantly affecting hair straightness in Han Chinese and Uyghur populations.",
+      "journal": "Hum Genet",
+      "volume": "135",
+      "pages": "1279-1286"
+    },
+    "29109912": {
+      "author": "Rawofi, L.",
+      "multiple_authors": true,
+      "year": "2017",
+      "title": "Genome-wide association study of pigmentary traits (skin and iris color) in individuals of East Asian ancestry.",
+      "journal": "PeerJ",
+      "volume": "5",
+      "pages": "e3951"
+    },
+    "29195075": {
+      "author": "Martin, A.R.",
+      "multiple_authors": true,
+      "year": "2017",
+      "title": "An Unexpectedly Complex Architecture for Skin Pigmentation in Africans.",
+      "journal": "Cell",
+      "volume": "171",
+      "pages": "1340-1353.e14"
+    },
+    "29220522": {
+      "author": "Liu, F.",
+      "multiple_authors": true,
+      "year": "2018",
+      "title": "Meta-analysis of genome-wide association studies identifies 8 novel loci involved in shape variation of human head hair.",
+      "journal": "Hum Mol Genet",
+      "volume": "27",
+      "pages": "559-575"
+    },
+    "29662168": {
+      "author": "Hysi, P.G.",
+      "multiple_authors": true,
+      "year": "2018",
+      "title": "Genome-wide association meta-analysis of individuals of European ancestry identifies new loci explaining a substantial fraction of hair color variation and heritability.",
+      "journal": "Nat Genet",
+      "volume": "50",
+      "pages": "652-656"
+    },
+    "29739929": {
+      "author": "Visconti, A.",
+      "multiple_authors": true,
+      "year": "2018",
+      "title": "Genome-wide association study in 176,678 Europeans reveals genetic loci for tanning response to sun exposure.",
+      "journal": "Nat Commun",
+      "volume": "9",
+      "pages": "1684"
+    },
+    "29895819": {
+      "author": "Endo, C.",
+      "multiple_authors": true,
+      "year": "2018",
+      "title": "Genome-wide association study in Japanese females identifies fifteen novel skin-related trait associations.",
+      "journal": "Sci Rep",
+      "volume": "8",
+      "pages": "8974"
+    },
+    "30166351": {
+      "author": "Galv\u00e1n-Femen\u00eda, I.",
+      "multiple_authors": true,
+      "year": "2018",
+      "title": "Multitrait genome association analysis identifies new susceptibility genes for human anthropometric variation in the GCAT cohort.",
+      "journal": "J Med Genet",
+      "volume": "55",
+      "pages": "765-778"
+    },
+    "30248107": {
+      "author": "Wu, S.",
+      "multiple_authors": true,
+      "year": "2018",
+      "title": "Genome-wide association studies and CRISPR/Cas9-mediated gene editing identify regulatory variants influencing eyebrow thickness in humans.",
+      "journal": "PLoS Genet",
+      "volume": "14",
+      "pages": "e1007640"
+    },
+    "30531825": {
+      "author": "Morgan, M.D.",
+      "multiple_authors": true,
+      "year": "2018",
+      "title": "Genome-wide study of hair colour in UK Biobank explains most of the SNP heritability.",
+      "journal": "Nat Commun",
+      "volume": "9",
+      "pages": "5271"
+    },
+    "30595370": {
+      "author": "Kichaev, G.",
+      "multiple_authors": true,
+      "year": "2019",
+      "title": "Leveraging Polygenic Functional Enrichment to Improve GWAS Power.",
+      "journal": "Am J Hum Genet",
+      "volume": "104",
+      "pages": "65-75"
+    },
+    "30664655": {
+      "author": "Adhikari, K.",
+      "multiple_authors": true,
+      "year": "2019",
+      "title": "A GWAS in Latin Americans highlights the convergent evolution of lighter skin pigmentation in Eurasia.",
+      "journal": "Nat Commun",
+      "volume": "10",
+      "pages": "358"
+    },
+    "30895295": {
+      "author": "Jonnalagadda, M.",
+      "multiple_authors": true,
+      "year": "2019",
+      "title": "A Genome-Wide Association Study of Skin and Iris Pigmentation among Individuals of South Asian Ancestry.",
+      "journal": "Genome Biol Evol",
+      "volume": "11",
+      "pages": "1066-1076"
+    },
+    "31315583": {
+      "author": "Lona-Durazo, F.",
+      "multiple_authors": true,
+      "year": "2019",
+      "title": "Meta-analysis of GWA studies provides new insights on the genetic architecture of skin pigmentation in recently admixed populations.",
+      "journal": "BMC Genet",
+      "volume": "20",
+      "pages": "59"
+    },
+    "32341527": {
+      "author": "Landi, M.T.",
+      "multiple_authors": true,
+      "year": "2020",
+      "title": "Genome-wide association meta-analyses combining multiple risk phenotypes provide insights into the genetic architecture of cutaneous melanoma susceptibility.",
+      "journal": "Nat Genet",
+      "volume": "52",
+      "pages": "494-504"
+    },
+    "32835660": {
+      "author": "Shin, J.G.",
+      "multiple_authors": true,
+      "year": "2021",
+      "title": "GWAS Analysis of 17,019 Korean Women Identifies the Variants Associated with Facial Pigmented Spots.",
+      "journal": "J Invest Dermatol",
+      "volume": "141",
+      "pages": "555-562"
+    },
+    "33190678": {
+      "author": "Ho, Y.Y.W.",
+      "multiple_authors": true,
+      "year": "2020",
+      "title": "Comparison of Genome-Wide Association Scans for Quantitative and Observational Measures of Human Hair Curvature.",
+      "journal": "Twin Res Hum Genet",
+      "volume": "23",
+      "pages": "271-277"
+    },
+    "33600456": {
+      "author": "Batai, K.",
+      "multiple_authors": true,
+      "year": "2021",
+      "title": "Genetic loci associated with skin pigmentation in African Americans and their effects on vitamin D deficiency.",
+      "journal": "PLoS Genet",
+      "volume": "17",
+      "pages": "e1009319"
+    },
+    "33692100": {
+      "author": "Simcoe, M.",
+      "multiple_authors": true,
+      "year": "2021",
+      "title": "Genome-wide association study in almost 195,000 individuals identifies 50 previously unidentified genetic loci for eye color.",
+      "journal": "Sci Adv",
+      "volume": "7",
+      "pages": "eabd1239"
+    },
+    "34265127": {
+      "author": "Inoue, Y.",
+      "multiple_authors": true,
+      "year": "2021",
+      "title": "Search for genetic loci involved in the constitution and skin type of a Japanese women using a genome-wide association study.",
+      "journal": "Exp Dermatol",
+      "volume": "30",
+      "pages": "1787-1793"
+    },
+    "34570997": {
+      "author": "Wang, F.",
+      "multiple_authors": true,
+      "year": "2022",
+      "title": "A Genome-Wide Scan on Individual Typology Angle\u00a0Found Variants at SLC24A2 Associated with\u00a0Skin Color Variation in Chinese Populations.",
+      "journal": "J Invest Dermatol",
+      "volume": "142",
+      "pages": "1223-1227.e14"
+    },
+    "34648798": {
+      "author": "Seo, J.Y.",
+      "multiple_authors": true,
+      "year": "2022",
+      "title": "GWAS Identifies Multiple Genetic Loci for Skin Color in Korean Women.",
+      "journal": "J Invest Dermatol",
+      "volume": "142",
+      "pages": "1077-1084"
+    },
+    "34737426": {
+      "author": "Jiang, L.",
+      "multiple_authors": true,
+      "year": "2021",
+      "title": "A generalized linear mixed model association tool for biobank-scale data.",
+      "journal": "Nat Genet",
+      "volume": "53",
+      "pages": "1616-1621"
+    },
+    "34737440": {
+      "author": "Lona-Durazo, F.",
+      "multiple_authors": true,
+      "year": "2021",
+      "title": "A large Canadian cohort provides insights into the genetic architecture of human hair colour.",
+      "journal": "Commun Biol",
+      "volume": "4",
+      "pages": "1253"
+    },
+    "35313536": {
+      "author": "Yoo, H.Y.",
+      "multiple_authors": true,
+      "year": "2022",
+      "title": "A Genome-Wide Association Study and Machine-Learning Algorithm Analysis on the Prediction of Facial Phenotypes by Genotypes in Korean Women.",
+      "journal": "Clin Cosmet Investig Dermatol",
+      "volume": "15",
+      "pages": "433-445"
+    },
+    "36035146": {
+      "author": "Wang, P.",
+      "multiple_authors": true,
+      "year": "2022",
+      "title": "Novel genetic associations with five aesthetic facial traits: A genome-wide association study in the Chinese population.",
+      "journal": "Front Genet",
+      "volume": "13",
+      "pages": "967684"
+    },
+    "36536295": {
+      "author": "Vollenbrock, C.E.",
+      "multiple_authors": true,
+      "year": "2022",
+      "title": "Genome-wide association study identifies novel loci associated with skin autofluorescence in individuals without diabetes.",
+      "journal": "BMC Genomics",
+      "volume": "23",
+      "pages": "840"
+    },
+    "36672889": {
+      "author": "Farr\u00e9, X.",
+      "multiple_authors": true,
+      "year": "2023",
+      "title": "Skin Phototype and Disease: A Comprehensive Genetic Approach to Pigmentary Traits Pleiotropy Using PRS in the GCAT Cohort.",
+      "journal": "Genes (Basel)",
+      "volume": "14",
+      "pages": "149"
+    },
+    "37565938": {
+      "author": "Luo, J.",
+      "multiple_authors": true,
+      "year": "2023",
+      "title": "GWASs Identify Genetic Loci Associated with Human Scalp Hair Whorl Direction.",
+      "journal": "J Invest Dermatol",
+      "volume": "143",
+      "pages": "2065-2068.e10"
+    },
+    "38728357": {
+      "author": "Xie, Z.",
+      "multiple_authors": true,
+      "year": "2024",
+      "title": "iGWAS: Image-based genome-wide association of self-supervised deep phenotyping of retina fundus images.",
+      "journal": "PLoS Genet",
+      "volume": "20",
+      "pages": "e1011273"
+    },
+    "40010489": {
+      "author": "Moon, H.",
+      "multiple_authors": true,
+      "year": "2025",
+      "title": "Comprehensive Profiling of Genetic and Nongenetic Factors that Influence Skin Traits in Asian Women from 4 Countries.",
+      "journal": "J Invest Dermatol",
+      "volume": "145",
+      "pages": "2272-2280.e10"
+    },
+    "42190866": {
+      "author": "Takala, J.H.",
+      "multiple_authors": true,
+      "year": "2026",
+      "title": "Hirsutism beyond PCOS: Genome-wide evidence for genetic factors.",
+      "journal": "J Invest Dermatol",
+      "volume": "146",
+      "pages": "2769-2778.e10"
+    },
+    "42586059": {
+      "author": "Hansen, M.E.B.",
+      "multiple_authors": true,
+      "year": "2026",
+      "title": "Anthropometric and cardio-metabolic trait variation and genetic associations in sub-Saharan Africa.",
+      "journal": "Am J Hum Genet",
+      "volume": "113",
+      "pages": "2001-2020"
+    }
+  }
+}

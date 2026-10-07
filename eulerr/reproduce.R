@@ -108,7 +108,7 @@ write_output(do.call(rbind, totals), "set-counts.csv")
 write_output(plot_input, "eulerr-membership-input.csv")
 
 # Join each plotted gene to its source records; absent-source fields stay blank.
-# A gene present in both traits has a separate row in each panel.
+# A gene present in both traits has a separate row for each trait group.
 source_fields <- list(
   omim = c(omim_cited_ids = "cited_omim_ids", omim_resolved_ids = "resolved_omim_ids",
     omim_gene_mim_ids = "gene_mim_ids", omim_condition_names = "conditions",
@@ -124,7 +124,7 @@ for (i in seq_along(groups)) {
   plotted <- plot_input[plot_input$trait == group, ]
   region <- ifelse(plotted$OMIM & plotted$GWAS, "shared",
                    ifelse(plotted$OMIM, "omim_only", "gwas_only"))
-  table <- data.frame(panel = c("B", "C")[[i]], trait_group = group,
+  table <- data.frame(panel = "B", trait_group = group,
     gene_symbol = plotted$gene_symbol, euler_region = unname(labels[region]))
   for (source in names(source_fields)) {
     source_table <- gene_tables[[paste0(source, "_", group)]]
@@ -161,7 +161,7 @@ roundtrip <- read.csv(file.path(output, "euler-genes.csv"), colClasses = "charac
                       check.names = FALSE, na.strings = NULL)
 stopifnot(identical(roundtrip, supplement))
 definitions <- c(
-  panel = "Figure panel: B for pigmentation; C for hair.",
+  panel = "Figure panel B contains both Euler diagrams; trait_group identifies pigmentation or hair.",
   trait_group = "Trait group used for gene selection and the Euler comparison.",
   gene_symbol = "Exact source gene name; aliases and case were not harmonized.",
   euler_region = "OMIM only, Shared (OMIM and retained GWAS), or GWAS only within this trait group.",
@@ -186,17 +186,40 @@ definitions <- c(
 stopifnot(identical(names(definitions), names(supplement)))
 write_output(data.frame(column = names(definitions), description = unname(definitions)),
               "euler-genes-columns.csv")
+trait_unions <- lapply(groups, function(group) {
+  union(gene_sets[[paste0("omim_", group)]], gene_sets[[paste0("gwas_", group)]])
+})
+names(trait_unions) <- groups
+between_groups <- sort(intersect(trait_unions$pigmentation, trait_unions$hair))
+both_gwas <- sort(intersect(gene_sets$gwas_pigmentation, gene_sets$gwas_hair))
+both_omim <- sort(intersect(gene_sets$omim_pigmentation, gene_sets$omim_hair))
+stopifnot(nrow(supplement) - length(between_groups) == length(union_genes))
+sources_for <- function(gene, group) {
+  present <- c(OMIM = gene %in% gene_sets[[paste0("omim_", group)]],
+               GWAS = gene %in% gene_sets[[paste0("gwas_", group)]])
+  paste(names(present)[present], collapse = " + ")
+}
+between_group_rows <- vapply(between_groups, function(gene) {
+  sprintf("| %s | %s | %s |", gene, sources_for(gene, "pigmentation"), sources_for(gene, "hair"))
+}, character(1), USE.NAMES = FALSE)
 writeLines(c("# Genes in the Euler diagrams", "",
-  sprintf("`euler-genes.csv` contains %s gene-trait rows and %s distinct gene names.",
-          nrow(supplement), length(unique(supplement$gene_symbol))),
-  "Each row represents one gene in one trait group. Genes found in both groups occur twice.",
-  "All six regions are included. `euler-genes-columns.csv` defines every column.", "",
-  sprintf("GWAS uses strict and broad traits and requires at least %s distinct PubMed IDs per gene and trait group.", minimum_papers),
-  "OMIM has no paper filter. A blank source field means the gene is absent from that selected source set; it does not establish absence from the database.",
-  "Multiple identifiers and URLs are separated by semicolons. Text labels are preserved from the source tables; semicolons can also occur within labels.",
-  "Gene names and identifiers should be imported as text. GWAS mapped genes are association annotations, not causal assignments.", "",
-  "The R script joins the four validated source gene lists to the exact plotted memberships, verifies every region, and writes this table.",
-  "Run the package's root reproduce.py to rebuild the upstream OMIM/GWAS inputs and regenerate the table."),
+  "`euler-genes.csv`: one row per exact gene name and trait group; all six diagram regions included.",
+  sprintf("Pigmentation: %s names; hair: %s. The %s shared names appear twice: %s rows, %s distinct names (%s + %s - %s). Column definitions: `euler-genes-columns.csv`.",
+          length(trait_unions$pigmentation), length(trait_unions$hair), length(between_groups),
+          nrow(supplement), length(union_genes), length(trait_unions$pigmentation),
+          length(trait_unions$hair), length(between_groups)), "",
+  "## Shared names", "",
+  sprintf("Final memberships below; %s names occur in both GWAS sets and %s in both OMIM sets. These categories overlap.",
+          length(both_gwas), length(both_omim)), "",
+  "| Gene name | Pigmentation sources | Hair sources |",
+  "|---|---|---|", between_group_rows, "",
+  "## Methods", "",
+  sprintf("- GWAS: core (strict) and related (broad) traits pooled; at least %s distinct nonempty PubMed IDs per exact name/group. Each paper counts once. Support may pool variants/phenotypes; papers may reuse cohorts. Replication of the same variant/phenotype is not required. No sample-size cutoff.", minimum_papers),
+  "- OMIM: cited literature tables and mapped entries; no paper-count filter. Needle et al.'s hair color/graying entries join pigmentation; other hair entries join hair (scalp, facial, and body traits).",
+  "- Overlap: exact names, without alias harmonization. Between-group overlap differs from OMIM/GWAS overlap within groups. GWAS mapped names are annotations, not causal assignments.",
+  "- Catalog scope: GCST007486 (PMID 30166351) has mixed color/morphology mappings for HERC2, IRF4, SLC24A4, and SLC45A2, contributing one of two hair-group papers for each. Group overlap does not establish causal effects on scalp-fiber geometry.", "",
+  "Import names/IDs as text. Multivalued fields use semicolons, also present in source labels. Blank fields mean absence from the compiled source set.", "",
+  "The R script verifies every region. Rebuild with the package's `reproduce.py`."),
   file.path(output, "euler-genes-README.md"))
 
 # 3. Fit circles to membership rows. All quantities come from the input genes.

@@ -46,3 +46,16 @@ searches, selection rules and every plotted gene.
 The local folder includes OMIM snapshots and a reference PDF excluded from Git.
 A clone needs those inputs restored to repeat the complete offline analysis.
 The R-only plot also requires the ignored OMIM gene CSVs. No credentials are stored.
+
+## Analysis website
+
+https://lasisilab.github.io/tig-omim-gwas/
+
+```sh
+quarto render
+quarto preview
+```
+
+The render refreshes counts and the searchable evidence table from the CSV,
+and copies the supplement downloads. GitHub Actions publishes the site on
+pushes to main. No API calls or OMIM credentials are used for the website.

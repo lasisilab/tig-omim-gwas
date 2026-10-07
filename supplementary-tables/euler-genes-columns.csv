@@ -1,5 +1,5 @@
 "column","description"
-"panel","Figure panel: B for pigmentation; C for hair."
+"panel","Figure panel B contains both Euler diagrams; trait_group identifies pigmentation or hair."
 "trait_group","Trait group used for gene selection and the Euler comparison."
 "gene_symbol","Exact source gene name; aliases and case were not harmonized."
 "euler_region","OMIM only, Shared (OMIM and retained GWAS), or GWAS only within this trait group."

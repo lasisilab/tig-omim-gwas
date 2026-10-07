@@ -1,0 +1,9 @@
+<script>
+(() => {
+const table=document.getElementById('gene-table'); if(!table)return;
+const rows=[...table.tBodies[0].rows], search=document.getElementById('gene-search'),trait=document.getElementById('gene-trait'),membership=document.getElementById('gene-membership');
+function filter(){const query=search.value.trim().toLowerCase();let count=0;for(const row of rows){const show=(!query||row.textContent.toLowerCase().includes(query))&&(!trait.value||row.dataset.trait===trait.value)&&(!membership.value||row.dataset.membership===membership.value);row.hidden=!show;if(show)count++;}document.getElementById('gene-count').textContent=`${count} of ${rows.length} rows`;}
+for(const control of [search,trait,membership])control.addEventListener('input',filter);
+filter();
+})();
+</script>

@@ -21,3 +21,9 @@ Rplots.pdf
 
 # Generated file inventory
 /FILE_TREE.txt
+
+/_site/
+
+/.quarto/
+
+/downloads/

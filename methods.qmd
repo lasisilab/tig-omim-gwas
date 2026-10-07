@@ -1,0 +1,35 @@
+---
+title: "Methods"
+---
+
+## OMIM
+
+OMIM identifiers come from D’Arcy and Kiel (2023), Supplementary Table S1, and Needle et al. (2025), Table 2. D’Arcy records and Needle’s hair color/graying records join pigmentation; other hair traits join hair. The pipeline resolves moved entries, retrieves gene mappings, and deduplicates approved gene names within each group. No paper-count filter applies.
+
+## GWAS Catalog
+
+Core (strict) and related (broad) terms are pooled, without child-trait expansion. A mapped gene enters a group when it has at least two distinct, nonempty PubMed IDs. Multiple records from one paper count once. Support can span variants and phenotypes; separate papers can reuse cohorts. The filter does not require replication of the same variant or phenotype. No sample-size cutoff or additional P-value filter applies.
+
+## Overlap
+
+Names are matched exactly, without alias harmonization. eulerr 8.3.1 fits both diagrams on one area scale. Counts and memberships come from the gene lists, not the fitted areas.
+
+GCST007486 (PMID [30166351](https://pubmed.ncbi.nlm.nih.gov/30166351/)) has mixed color/morphology mappings for HERC2, IRF4, SLC24A4, and SLC45A2. It contributes one of two hair-group papers for each. Cross-group membership does not establish effects on scalp-fiber geometry.
+
+## Reproduce
+
+Source code: [lasisilab/tig-omim-gwas](https://github.com/lasisilab/tig-omim-gwas).
+
+From the repository root:
+
+```bash
+python -m pip install -r requirements.txt
+Rscript eulerr/setup.R
+python reproduce.py
+```
+
+Requires Python 3.11+, R 4.2+, and eulerr 8.3.1. The offline run uses saved responses. Local OMIM inputs are excluded from Git and must be restored to reproduce the complete run. API credentials are never needed to browse this site.
+
+## Table conventions
+
+One row represents one exact gene name in one trait group. Blank source fields mean absence from the compiled set. Names and identifiers should be imported as text. Multivalued CSV fields use semicolons, which can also occur within source labels.
